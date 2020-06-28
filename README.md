@@ -1,4 +1,14 @@
 # BLAST-CT
+
+This repo is a fork of https://github.com/biomedia-mira/blast-ct with purpose of paclaing its content to allow for the trained model to run as a Docker container and inpput and output as DICOM objects.
+
+## To Run using Docker
+* Clone repo
+* ```cd blast-ct```
+* ```sudo docker built -t blast-ct .```
+* ```sudo docker run --gpus all -v /path-to-input-folder-with-ct-images/:/workspace/input -v /path-to-output-folder/:/workspace/output -w /app blast-ct bash /app/run.sh --input-data-folder=/workspace/input --output-data-folder=/workspace/output```. 
+* Otherwise just use ```bash run.sh``` with appropriate arguments.
+
 [![DOI](https://zenodo.org/badge/246262662.svg)](https://zenodo.org/badge/latestdoi/246262662)
 
 **B**rain **L**esion **A**nalysis and **S**egmentation **T**ool for **C**omputed **T**omography
