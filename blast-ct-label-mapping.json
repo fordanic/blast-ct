@@ -1,0 +1,81 @@
+{
+    "SeriesDescription": "Segmentation",
+    "SeriesNumber": "300",
+    "InstanceNumber": "1",
+    "BodyPartExamined": "HEAD",
+    "segmentAttributes": [
+      [
+        {
+          "labelID": 1,
+          "SegmentDescription": "Intraparenchymal hemorrhage of brain",
+          "SegmentAlgorithmType": "AUTOMATIC",
+          "SegmentAlgorithmName": "BLAST-CT",
+          "SegmentedPropertyCategoryCodeSequence": {
+            "CodeValue": "49755003",
+            "CodingSchemeDesignator": "SCT",
+            "CodeMeaning": "Morphologically Altered Structure"
+          },
+          "SegmentedPropertyTypeCodeSequence": {
+            "CodeValue": "449020009",
+            "CodingSchemeDesignator": "SCT",
+            "CodeMeaning": "Intraparenchymal hemorrhage of brain"
+          },
+          "recommendedDisplayRGBValue": [
+            250,
+            250,
+            225
+          ]
+        },
+        {
+            "labelID": 2,
+            "SegmentDescription": "Intracranial hemorrhage",
+            "SegmentAlgorithmType": "AUTOMATIC",
+            "SegmentAlgorithmName": "BLAST-CT",
+            "SegmentedPropertyCategoryCodeSequence": {
+              "CodeValue": "49755003",
+              "CodingSchemeDesignator": "SCT",
+              "CodeMeaning": "Morphologically Altered Structure"
+            },
+            "SegmentedPropertyTypeCodeSequence": {
+              "CodeValue": "1386000",
+              "CodingSchemeDesignator": "SCT",
+              "CodeMeaning": "Intracranial hemorrhage"
+            }
+          },
+          {
+            "labelID": 3,
+            "SegmentDescription": "Perilesional edema",
+            "SegmentAlgorithmType": "AUTOMATIC",
+            "SegmentAlgorithmName": "BLAST-CT",
+            "SegmentedPropertyCategoryCodeSequence": {
+              "CodeValue": "49755003",
+              "CodingSchemeDesignator": "SCT",
+              "CodeMeaning": "Morphologically Altered Structure"
+            },
+            "SegmentedPropertyTypeCodeSequence": {
+              "CodeValue": "XXX",
+              "CodingSchemeDesignator": "SCT",
+              "CodeMeaning": "Perilesional edema"
+            }
+          },
+          {
+            "labelID": 4,
+            "SegmentDescription": "Ventricular hemorrhage",
+            "SegmentAlgorithmType": "AUTOMATIC",
+            "SegmentAlgorithmName": "BLAST-CT",
+            "SegmentedPropertyCategoryCodeSequence": {
+              "CodeValue": "49755003",
+              "CodingSchemeDesignator": "SCT",
+              "CodeMeaning": "Morphologically Altered Structure"
+            },
+            "SegmentedPropertyTypeCodeSequence": {
+              "CodeValue": "23276006",
+              "CodingSchemeDesignator": "SCT",
+              "CodeMeaning": "Ventricular hemorrhage"
+            }
+          }
+      ]
+    ],
+    "ContentLabel": "SEGMENTATION",
+    "ContentDescription": "Image segmentation"
+  }
